@@ -1,0 +1,9 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Nov 27, 2023 at 22:51:35 EST
+xmverilog
+	../../src/data_MEM.v
+	-compile
+Recompiling... reason: file '/home/ead/yihui/ece6250/MIPS32_Pipeline_CPU_Chip_Design/src/ALU.v' is newer than expected.
+	expected: Sat Nov 18 23:04:48 2023
+	actual:   Thu Nov 23 22:12:15 2023
+TOOL:	xmverilog	17.10-s001: Exiting on Nov 27, 2023 at 22:51:35 EST  (total: 00:00:00)

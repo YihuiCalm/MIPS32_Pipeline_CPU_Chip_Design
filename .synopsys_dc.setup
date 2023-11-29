@@ -1,0 +1,6 @@
+set search_path [list . ${search_path} /apps/vlsi_2018/synopsys/synthesis/O-2018.06-SP1/libraries/syn /apps/vlsi_2018/synopsys/synthesis/O-2018.06-SP1/minpower/syn /apps/vlsi_2018/synopsys/synthesis/O-2018.06-SP1/dw/syn_ver /apps/vlsi_2018/synopsys/synthesis/O-2018.06-SP1/dw/sim_ver /apps/vlsi_2018/synopsys/synthesis/O-2018.06/libraries/syn/gtech.db /home/class/vlsi/course_all/UofU/UofU_Digital_v1_2_oa3 /apps/design_kits/osu_stdcells_v2p7/synopsys/lib/ami05 "./db"] 
+set target_library osu05_stdcells.db 
+set synthetic_library dw_foundation.sldb
+set symbol_library generic.sdb
+set link_library { * osu05_stdcells.db } 
+define_design_lib -path ./work/syn/ WORK

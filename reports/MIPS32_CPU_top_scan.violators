@@ -1,0 +1,29 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : constraint
+        -all_violators
+Design : MIPS32_CPU_top
+Version: O-2018.06-SP1
+Date   : Tue Nov 28 01:04:14 2023
+****************************************
+
+
+   max_area
+
+                             Required        Actual
+   Design                      Area           Area           Slack
+   -----------------------------------------------------------------
+   MIPS32_CPU_top               0.00       2393559.00     -2393559.00
+                                                                    (VIOLATED)
+
+
+   max_leakage_power
+
+                             Required        Actual
+   Design                   Leakage Power  Leakage Power     Slack
+   -----------------------------------------------------------------
+   MIPS32_CPU_top               0.00         468.53        -468.53  (VIOLATED)
+
+
+1

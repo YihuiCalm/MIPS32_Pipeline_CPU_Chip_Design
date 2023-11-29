@@ -1,0 +1,693 @@
+ 
+****************************************
+Report : port
+        -verbose
+Design : MIPS32_CPU_top
+Version: O-2018.06-SP1
+Date   : Tue Nov 28 01:03:53 2023
+****************************************
+
+
+                       Pin      Wire     Max     Max     Connection
+Port           Dir     Load     Load     Trans   Cap     Class      Attrs
+--------------------------------------------------------------------------------
+clk            in      0.0000   0.0000   --       0.41   --         
+instruction[0] in      0.0000   0.0000   --       0.41   --         
+instruction[1] in      0.0000   0.0000   --       0.41   --         
+instruction[2] in      0.0000   0.0000   --       0.41   --         
+instruction[3] in      0.0000   0.0000   --       0.41   --         
+instruction[4] in      0.0000   0.0000   --       0.41   --         
+instruction[5] in      0.0000   0.0000   --       0.41   --         
+instruction[6] in      0.0000   0.0000   --       0.41   --         
+instruction[7] in      0.0000   0.0000   --       0.41   --         
+instruction[8] in      0.0000   0.0000   --       0.41   --         
+instruction[9] in      0.0000   0.0000   --       0.41   --         
+instruction[10]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[11]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[12]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[13]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[14]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[15]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[16]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[17]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[18]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[19]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[20]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[21]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[22]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[23]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[24]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[25]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[26]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[27]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[28]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[29]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[30]
+               in      0.0000   0.0000   --       0.41   --         
+instruction[31]
+               in      0.0000   0.0000   --       0.41   --         
+rst_n          in      0.0000   0.0000   --       0.41   --         
+inst_address[0]
+               out     0.1000   0.0000   --      --      --         
+inst_address[1]
+               out     0.1000   0.0000   --      --      --         
+inst_address[2]
+               out     0.1000   0.0000   --      --      --         
+inst_address[3]
+               out     0.1000   0.0000   --      --      --         
+inst_address[4]
+               out     0.1000   0.0000   --      --      --         
+inst_address[5]
+               out     0.1000   0.0000   --      --      --         
+inst_address[6]
+               out     0.1000   0.0000   --      --      --         
+inst_address[7]
+               out     0.1000   0.0000   --      --      --         
+inst_address[8]
+               out     0.1000   0.0000   --      --      --         
+inst_address[9]
+               out     0.1000   0.0000   --      --      --         
+inst_address[10]
+               out     0.1000   0.0000   --      --      --         
+inst_address[11]
+               out     0.1000   0.0000   --      --      --         
+inst_address[12]
+               out     0.1000   0.0000   --      --      --         
+inst_address[13]
+               out     0.1000   0.0000   --      --      --         
+inst_address[14]
+               out     0.1000   0.0000   --      --      --         
+inst_address[15]
+               out     0.1000   0.0000   --      --      --         
+inst_address[16]
+               out     0.1000   0.0000   --      --      --         
+inst_address[17]
+               out     0.1000   0.0000   --      --      --         
+inst_address[18]
+               out     0.1000   0.0000   --      --      --         
+inst_address[19]
+               out     0.1000   0.0000   --      --      --         
+inst_address[20]
+               out     0.1000   0.0000   --      --      --         
+inst_address[21]
+               out     0.1000   0.0000   --      --      --         
+inst_address[22]
+               out     0.1000   0.0000   --      --      --         
+inst_address[23]
+               out     0.1000   0.0000   --      --      --         
+inst_address[24]
+               out     0.1000   0.0000   --      --      --         
+inst_address[25]
+               out     0.1000   0.0000   --      --      --         
+inst_address[26]
+               out     0.1000   0.0000   --      --      --         
+inst_address[27]
+               out     0.1000   0.0000   --      --      --         
+inst_address[28]
+               out     0.1000   0.0000   --      --      --         
+inst_address[29]
+               out     0.1000   0.0000   --      --      --         
+inst_address[30]
+               out     0.1000   0.0000   --      --      --         
+inst_address[31]
+               out     0.1000   0.0000   --      --      --         
+
+
+              External  Max             Min                Min       Min
+              Number    Wireload        Wireload           Pin       Wire
+Port          Points    Model           Model              Load      Load
+--------------------------------------------------------------------------------
+clk                1      --              --              --        -- 
+instruction[0]
+                   1      --              --              --        -- 
+instruction[1]
+                   1      --              --              --        -- 
+instruction[2]
+                   1      --              --              --        -- 
+instruction[3]
+                   1      --              --              --        -- 
+instruction[4]
+                   1      --              --              --        -- 
+instruction[5]
+                   1      --              --              --        -- 
+instruction[6]
+                   1      --              --              --        -- 
+instruction[7]
+                   1      --              --              --        -- 
+instruction[8]
+                   1      --              --              --        -- 
+instruction[9]
+                   1      --              --              --        -- 
+instruction[10]
+                   1      --              --              --        -- 
+instruction[11]
+                   1      --              --              --        -- 
+instruction[12]
+                   1      --              --              --        -- 
+instruction[13]
+                   1      --              --              --        -- 
+instruction[14]
+                   1      --              --              --        -- 
+instruction[15]
+                   1      --              --              --        -- 
+instruction[16]
+                   1      --              --              --        -- 
+instruction[17]
+                   1      --              --              --        -- 
+instruction[18]
+                   1      --              --              --        -- 
+instruction[19]
+                   1      --              --              --        -- 
+instruction[20]
+                   1      --              --              --        -- 
+instruction[21]
+                   1      --              --              --        -- 
+instruction[22]
+                   1      --              --              --        -- 
+instruction[23]
+                   1      --              --              --        -- 
+instruction[24]
+                   1      --              --              --        -- 
+instruction[25]
+                   1      --              --              --        -- 
+instruction[26]
+                   1      --              --              --        -- 
+instruction[27]
+                   1      --              --              --        -- 
+instruction[28]
+                   1      --              --              --        -- 
+instruction[29]
+                   1      --              --              --        -- 
+instruction[30]
+                   1      --              --              --        -- 
+instruction[31]
+                   1      --              --              --        -- 
+rst_n              1      --              --              --        -- 
+inst_address[0]
+                   1      --              --              --        -- 
+inst_address[1]
+                   1      --              --              --        -- 
+inst_address[2]
+                   1      --              --              --        -- 
+inst_address[3]
+                   1      --              --              --        -- 
+inst_address[4]
+                   1      --              --              --        -- 
+inst_address[5]
+                   1      --              --              --        -- 
+inst_address[6]
+                   1      --              --              --        -- 
+inst_address[7]
+                   1      --              --              --        -- 
+inst_address[8]
+                   1      --              --              --        -- 
+inst_address[9]
+                   1      --              --              --        -- 
+inst_address[10]
+                   1      --              --              --        -- 
+inst_address[11]
+                   1      --              --              --        -- 
+inst_address[12]
+                   1      --              --              --        -- 
+inst_address[13]
+                   1      --              --              --        -- 
+inst_address[14]
+                   1      --              --              --        -- 
+inst_address[15]
+                   1      --              --              --        -- 
+inst_address[16]
+                   1      --              --              --        -- 
+inst_address[17]
+                   1      --              --              --        -- 
+inst_address[18]
+                   1      --              --              --        -- 
+inst_address[19]
+                   1      --              --              --        -- 
+inst_address[20]
+                   1      --              --              --        -- 
+inst_address[21]
+                   1      --              --              --        -- 
+inst_address[22]
+                   1      --              --              --        -- 
+inst_address[23]
+                   1      --              --              --        -- 
+inst_address[24]
+                   1      --              --              --        -- 
+inst_address[25]
+                   1      --              --              --        -- 
+inst_address[26]
+                   1      --              --              --        -- 
+inst_address[27]
+                   1      --              --              --        -- 
+inst_address[28]
+                   1      --              --              --        -- 
+inst_address[29]
+                   1      --              --              --        -- 
+inst_address[30]
+                   1      --              --              --        -- 
+inst_address[31]
+                   1      --              --              --        -- 
+
+                    Input Delay
+                  Min             Max       Related   Max
+Input Port    Rise    Fall    Rise    Fall   Clock  Fanout
+--------------------------------------------------------------------------------
+clk           2.00    2.00    2.00    2.00  clk       1.00  
+instruction[0]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[1]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[2]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[3]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[4]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[5]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[6]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[7]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[8]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[9]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[10]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[11]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[12]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[13]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[14]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[15]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[16]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[17]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[18]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[19]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[20]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[21]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[22]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[23]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[24]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[25]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[26]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[27]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[28]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[29]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[30]
+              2.00    2.00    2.00    2.00  clk       1.00  
+instruction[31]
+              2.00    2.00    2.00    2.00  clk       1.00  
+rst_n         2.00    2.00    2.00    2.00  clk       1.00  
+
+
+                    Driving Cell
+Input Port   Rise(min/max)      Fall(min/max)      Mult(min/max)  Attrs(min/max)
+--------------------------------------------------------------------------------
+clk          osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[0]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[1]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[2]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[3]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[4]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[5]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[6]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[7]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[8]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[9]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[10]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[11]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[12]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[13]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[14]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[15]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[16]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[17]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[18]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[19]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[20]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[21]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[22]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[23]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[24]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[25]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[26]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[27]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[28]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[29]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[30]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+instruction[31]
+             osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+rst_n        osu05_stdcells/INVX1
+                                osu05_stdcells/INVX1
+                                                     -- /  --     
+
+
+               Max Drive      Min Drive      Resistance    Min    Min       Cell
+Input Port    Rise    Fall   Rise    Fall   Max     Min    Cap    Fanout    Deg
+--------------------------------------------------------------------------------
+clk           --      --     --      --     --      --     --     --        -- 
+instruction[0]
+              --      --     --      --     --      --     --     --        -- 
+instruction[1]
+              --      --     --      --     --      --     --     --        -- 
+instruction[2]
+              --      --     --      --     --      --     --     --        -- 
+instruction[3]
+              --      --     --      --     --      --     --     --        -- 
+instruction[4]
+              --      --     --      --     --      --     --     --        -- 
+instruction[5]
+              --      --     --      --     --      --     --     --        -- 
+instruction[6]
+              --      --     --      --     --      --     --     --        -- 
+instruction[7]
+              --      --     --      --     --      --     --     --        -- 
+instruction[8]
+              --      --     --      --     --      --     --     --        -- 
+instruction[9]
+              --      --     --      --     --      --     --     --        -- 
+instruction[10]
+              --      --     --      --     --      --     --     --        -- 
+instruction[11]
+              --      --     --      --     --      --     --     --        -- 
+instruction[12]
+              --      --     --      --     --      --     --     --        -- 
+instruction[13]
+              --      --     --      --     --      --     --     --        -- 
+instruction[14]
+              --      --     --      --     --      --     --     --        -- 
+instruction[15]
+              --      --     --      --     --      --     --     --        -- 
+instruction[16]
+              --      --     --      --     --      --     --     --        -- 
+instruction[17]
+              --      --     --      --     --      --     --     --        -- 
+instruction[18]
+              --      --     --      --     --      --     --     --        -- 
+instruction[19]
+              --      --     --      --     --      --     --     --        -- 
+instruction[20]
+              --      --     --      --     --      --     --     --        -- 
+instruction[21]
+              --      --     --      --     --      --     --     --        -- 
+instruction[22]
+              --      --     --      --     --      --     --     --        -- 
+instruction[23]
+              --      --     --      --     --      --     --     --        -- 
+instruction[24]
+              --      --     --      --     --      --     --     --        -- 
+instruction[25]
+              --      --     --      --     --      --     --     --        -- 
+instruction[26]
+              --      --     --      --     --      --     --     --        -- 
+instruction[27]
+              --      --     --      --     --      --     --     --        -- 
+instruction[28]
+              --      --     --      --     --      --     --     --        -- 
+instruction[29]
+              --      --     --      --     --      --     --     --        -- 
+instruction[30]
+              --      --     --      --     --      --     --     --        -- 
+instruction[31]
+              --      --     --      --     --      --     --     --        -- 
+rst_n         --      --     --      --     --      --     --     --        -- 
+
+
+               Max Tran        Min Tran
+Input Port    Rise    Fall    Rise    Fall
+--------------------------------------------------------------------------------
+clk           --      --      --      -- 
+instruction[0]
+              --      --      --      -- 
+instruction[1]
+              --      --      --      -- 
+instruction[2]
+              --      --      --      -- 
+instruction[3]
+              --      --      --      -- 
+instruction[4]
+              --      --      --      -- 
+instruction[5]
+              --      --      --      -- 
+instruction[6]
+              --      --      --      -- 
+instruction[7]
+              --      --      --      -- 
+instruction[8]
+              --      --      --      -- 
+instruction[9]
+              --      --      --      -- 
+instruction[10]
+              --      --      --      -- 
+instruction[11]
+              --      --      --      -- 
+instruction[12]
+              --      --      --      -- 
+instruction[13]
+              --      --      --      -- 
+instruction[14]
+              --      --      --      -- 
+instruction[15]
+              --      --      --      -- 
+instruction[16]
+              --      --      --      -- 
+instruction[17]
+              --      --      --      -- 
+instruction[18]
+              --      --      --      -- 
+instruction[19]
+              --      --      --      -- 
+instruction[20]
+              --      --      --      -- 
+instruction[21]
+              --      --      --      -- 
+instruction[22]
+              --      --      --      -- 
+instruction[23]
+              --      --      --      -- 
+instruction[24]
+              --      --      --      -- 
+instruction[25]
+              --      --      --      -- 
+instruction[26]
+              --      --      --      -- 
+instruction[27]
+              --      --      --      -- 
+instruction[28]
+              --      --      --      -- 
+instruction[29]
+              --      --      --      -- 
+instruction[30]
+              --      --      --      -- 
+instruction[31]
+              --      --      --      -- 
+rst_n         --      --      --      -- 
+
+
+                    Output Delay
+                  Min             Max      Related  Fanout
+Output Port   Rise    Fall    Rise    Fall  Clock     Load
+--------------------------------------------------------------------------------
+inst_address[0]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[1]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[2]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[3]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[4]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[5]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[6]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[7]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[8]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[9]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[10]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[11]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[12]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[13]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[14]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[15]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[16]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[17]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[18]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[19]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[20]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[21]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[22]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[23]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[24]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[25]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[26]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[27]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[28]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[29]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[30]
+              1.65    1.65    1.65    1.65  clk       8.00  
+inst_address[31]
+              1.65    1.65    1.65    1.65  clk       8.00  
+
+1

@@ -1,0 +1,7 @@
+s1(20Nov2023:17:34:37):  xmverilog ../../src/ALU.v ../../src/Control_unit.v ../../src/EX2MEM_reg.v ../../src/ID2EX_reg.v ../../src/IF2ID_reg.v ../../src/MEM2WB_reg.v ../../src/MIPS32_CPU_top.v ../../src/PC.v ../../src/data_MEM.v ../../src/register_MEM.v -compile 
+s2(20Nov2023:17:34:38):  xmverilog ../../src/testbench/CPU_top_tb.v +access+r 
+s3(27Nov2023:22:49:13):  xmverilog ../../src/data_MEM.v -compile 
+s4(27Nov2023:22:49:23):  xmverilog ../../src/data_MEM_copy.v -compile 
+s5(27Nov2023:22:51:21):  xmverilog ../../src/data_MEM.v -compile 
+s6(27Nov2023:22:51:28):  xmverilog ../../src/data_MEM.v -compile 
+s7(27Nov2023:22:51:35):  xmverilog ../../src/data_MEM.v -compile 

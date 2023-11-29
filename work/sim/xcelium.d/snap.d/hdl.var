@@ -1,0 +1,5 @@
+define XMSIMRC	( /apps/vlsi_2018/cadence/XCELIUM1710/tools/xcelium/files/xmsimrc, ~/.xmsimrc )
+include ./hdlrun.var
+define SNAPSHOT worklib.MIPS32_CPU_top_tb:v
+DEFINE RUNMODEDEFAULT 1
+DEFINE LIB_MAP ( + => worklib )

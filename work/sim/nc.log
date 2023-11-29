@@ -1,0 +1,35 @@
+xmverilog(64): 17.10-s001: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	xmverilog	17.10-s001: Started on Nov 28, 2023 at 15:37:12 EST
+ncverilog
+	-l
+	nc.log
+	+access+r
+	../../src/testbench/postRoute/CPU_top_tb.v
+xmverilog: *W,NCEXDEP: Executable (ncverilog) is deprecated. Use (xmverilog) instead.
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+	Modules w/wo timescales:
+		timescale of worklib.XOR2X1:v = 1ns/10ps
+		timescale of worklib.XNOR2X1:v = 1ns/10ps
+		timescale of worklib.OR2X2:v = 1ns/10ps
+		timescale of worklib.OAI22X1:v = 1ns/10ps
+		timescale of worklib.OAI21X1:v = 1ns/10ps
+		timescale of worklib.NOR3X1:v = 1ns/10ps
+		timescale of worklib.NOR2X1:v = 1ns/10ps
+		timescale of worklib.NAND3X1:v = 1ns/10ps
+		timescale of worklib.NAND2X1:v = 1ns/10ps
+		timescale of worklib.MIPS32_CPU_top_tb:v = 1ns/1ps
+		timescale of worklib.MIPS32_CPU_top:v = NOTSET
+		timescale of worklib.INVX8:v = 1ns/10ps
+		timescale of worklib.INVX4:v = 1ns/10ps
+		timescale of worklib.DFFPOSX1_SCAN:v = 1ns/10ps
+		timescale of worklib.CLKBUF1:v = 1ns/10ps
+		timescale of worklib.BUFX4:v = 1ns/10ps
+		timescale of worklib.BUFX2:v = 1ns/10ps
+		timescale of worklib.AOI22X1:v = 1ns/10ps
+		timescale of worklib.AOI21X1:v = 1ns/10ps
+		timescale of worklib.AND2X2:v = 1ns/10ps
+xmelab: *F,CUMSTS: Timescale directive missing on one or more modules.
+xmverilog: *E,ELBERR: Error during elaboration (status 2), exiting.
+TOOL:	xmverilog	17.10-s001: Exiting on Nov 28, 2023 at 15:37:12 EST  (total: 00:00:00)

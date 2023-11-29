@@ -1,0 +1,550 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : MIPS32_CPU_top
+Version: O-2018.06-SP1
+Date   : Tue Nov 28 01:03:53 2023
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: u_MEM2WB_reg_write_reg_address_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_alu_result_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  u_MEM2WB_reg_write_reg_address_reg_1_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  u_MEM2WB_reg_write_reg_address_reg_1_/Q (DFFPOSX1)      0.51       0.81 f
+  U3574/Y (INVX1)                                         0.48       1.29 r
+  U3575/Y (AOI22X1)                                       0.13       1.42 f
+  U3576/Y (OAI21X1)                                       0.15       1.57 r
+  U3583/Y (NOR2X1)                                        0.18       1.75 f
+  U3584/Y (OAI21X1)                                       0.13       1.88 r
+  U3585/Y (NOR2X1)                                        0.15       2.03 f
+  U3586/Y (OAI21X1)                                       0.13       2.16 r
+  U3587/Y (AOI21X1)                                       0.21       2.37 f
+  U3588/Y (NAND2X1)                                       0.84       3.21 r
+  U3236/Y (BUFX2)                                         0.87       4.09 r
+  U3761/Y (OAI21X1)                                       0.33       4.42 f
+  U5159/YC (FAX1)                                         0.51       4.93 f
+  U5035/YC (FAX1)                                         0.46       5.39 f
+  U5029/YC (FAX1)                                         0.45       5.84 f
+  U3996/YC (FAX1)                                         0.45       6.30 f
+  U3991/YC (FAX1)                                         0.45       6.75 f
+  U5024/YC (FAX1)                                         0.45       7.21 f
+  U4358/YC (FAX1)                                         0.45       7.66 f
+  U4363/YC (FAX1)                                         0.45       8.11 f
+  U4368/YC (FAX1)                                         0.45       8.57 f
+  U3798/YC (FAX1)                                         0.45       9.02 f
+  U3803/YC (FAX1)                                         0.45       9.48 f
+  U5019/YC (FAX1)                                         0.45       9.93 f
+  U3788/YC (FAX1)                                         0.45      10.39 f
+  U3793/YC (FAX1)                                         0.45      10.84 f
+  U3778/YC (FAX1)                                         0.45      11.29 f
+  U3783/YC (FAX1)                                         0.46      11.75 f
+  U4510/YC (FAX1)                                         0.45      12.20 f
+  U5014/YC (FAX1)                                         0.46      12.66 f
+  U5009/YC (FAX1)                                         0.45      13.11 f
+  U4528/YC (FAX1)                                         0.46      13.57 f
+  U5004/YC (FAX1)                                         0.46      14.02 f
+  U4540/YC (FAX1)                                         0.46      14.48 f
+  U4552/YC (FAX1)                                         0.46      14.94 f
+  U4570/YC (FAX1)                                         0.46      15.39 f
+  U4999/YC (FAX1)                                         0.46      15.85 f
+  U4603/YC (FAX1)                                         0.45      16.30 f
+  U4994/YC (FAX1)                                         0.45      16.75 f
+  U4989/YC (FAX1)                                         0.45      17.21 f
+  U4984/YC (FAX1)                                         0.45      17.66 f
+  U4979/YC (FAX1)                                         0.46      18.12 f
+  U4966/YC (FAX1)                                         0.39      18.51 f
+  U4974/Y (XNOR2X1)                                       0.20      18.71 f
+  U4978/Y (OAI21X1)                                       0.12      18.83 r
+  inst_EX2MEM_reg_alu_result_reg_31_/D (DFFPOSX1)         0.00      18.83 r
+  data arrival time                                                 18.83
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.30      20.30
+  inst_EX2MEM_reg_alu_result_reg_31_/CLK (DFFPOSX1)       0.00      20.30 r
+  library setup time                                     -0.36      19.94
+  data required time                                                19.94
+  --------------------------------------------------------------------------
+  data required time                                                19.94
+  data arrival time                                                -18.83
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.11
+
+
+  Startpoint: u_MEM2WB_reg_write_reg_address_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_alu_result_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  u_MEM2WB_reg_write_reg_address_reg_0_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  u_MEM2WB_reg_write_reg_address_reg_0_/Q (DFFPOSX1)      0.39       0.69 f
+  U3569/Y (INVX1)                                         0.46       1.15 r
+  U3615/Y (AOI22X1)                                       0.22       1.37 f
+  U3616/Y (OAI21X1)                                       0.17       1.53 r
+  U3618/Y (NOR2X1)                                        0.17       1.70 f
+  U3619/Y (OAI21X1)                                       0.13       1.84 r
+  U3620/Y (NOR2X1)                                        0.14       1.97 f
+  U3621/Y (OAI21X1)                                       0.14       2.11 r
+  U3622/Y (AOI21X1)                                       0.20       2.30 f
+  U3628/Y (INVX1)                                         0.13       2.43 r
+  U3629/Y (NOR2X1)                                        0.83       3.26 f
+  U3268/Y (INVX2)                                         0.89       4.15 r
+  U3757/Y (OAI21X1)                                       0.38       4.54 f
+  U3758/Y (XOR2X1)                                        0.38       4.92 f
+  U5035/YC (FAX1)                                         0.46       5.38 f
+  U5029/YC (FAX1)                                         0.45       5.83 f
+  U3996/YC (FAX1)                                         0.45       6.29 f
+  U3991/YC (FAX1)                                         0.45       6.74 f
+  U5024/YC (FAX1)                                         0.45       7.20 f
+  U4358/YC (FAX1)                                         0.45       7.65 f
+  U4363/YC (FAX1)                                         0.45       8.10 f
+  U4368/YC (FAX1)                                         0.45       8.56 f
+  U3798/YC (FAX1)                                         0.45       9.01 f
+  U3803/YC (FAX1)                                         0.45       9.47 f
+  U5019/YC (FAX1)                                         0.45       9.92 f
+  U3788/YC (FAX1)                                         0.45      10.37 f
+  U3793/YC (FAX1)                                         0.45      10.83 f
+  U3778/YC (FAX1)                                         0.45      11.28 f
+  U3783/YC (FAX1)                                         0.46      11.74 f
+  U4510/YC (FAX1)                                         0.45      12.19 f
+  U5014/YC (FAX1)                                         0.46      12.65 f
+  U5009/YC (FAX1)                                         0.45      13.10 f
+  U4528/YC (FAX1)                                         0.46      13.56 f
+  U5004/YC (FAX1)                                         0.46      14.01 f
+  U4540/YC (FAX1)                                         0.46      14.47 f
+  U4552/YC (FAX1)                                         0.46      14.92 f
+  U4570/YC (FAX1)                                         0.46      15.38 f
+  U4999/YC (FAX1)                                         0.46      15.83 f
+  U4603/YC (FAX1)                                         0.45      16.29 f
+  U4994/YC (FAX1)                                         0.45      16.74 f
+  U4989/YC (FAX1)                                         0.45      17.20 f
+  U4984/YC (FAX1)                                         0.45      17.65 f
+  U4979/YC (FAX1)                                         0.46      18.11 f
+  U4966/YC (FAX1)                                         0.39      18.50 f
+  U4974/Y (XNOR2X1)                                       0.20      18.70 f
+  U4978/Y (OAI21X1)                                       0.12      18.82 r
+  inst_EX2MEM_reg_alu_result_reg_31_/D (DFFPOSX1)         0.00      18.82 r
+  data arrival time                                                 18.82
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.30      20.30
+  inst_EX2MEM_reg_alu_result_reg_31_/CLK (DFFPOSX1)       0.00      20.30 r
+  library setup time                                     -0.36      19.94
+  data required time                                                19.94
+  --------------------------------------------------------------------------
+  data required time                                                19.94
+  data arrival time                                                -18.82
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.12
+
+
+  Startpoint: inst_EX2MEM_reg_op_type_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_alu_result_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_EX2MEM_reg_op_type_reg_2_/CLK (DFFPOSX1)           0.00       0.30 r
+  inst_EX2MEM_reg_op_type_reg_2_/Q (DFFPOSX1)             0.32       0.62 f
+  U3505/Y (INVX1)                                         0.19       0.81 r
+  U3506/Y (NAND2X1)                                       0.19       1.00 f
+  U3549/Y (OAI21X1)                                       0.16       1.16 r
+  U3550/Y (NOR2X1)                                        0.19       1.35 f
+  U3605/Y (OAI21X1)                                       0.15       1.50 r
+  U3606/Y (NOR2X1)                                        0.14       1.64 f
+  U3607/Y (OAI21X1)                                       0.13       1.77 r
+  U3608/Y (NOR2X1)                                        0.13       1.90 f
+  U3609/Y (OAI21X1)                                       0.13       2.03 r
+  U3610/Y (AOI21X1)                                       0.18       2.21 f
+  U3623/Y (INVX1)                                         0.11       2.32 r
+  U3624/Y (NAND2X1)                                       0.12       2.44 f
+  U3629/Y (NOR2X1)                                        0.60       3.04 r
+  U3268/Y (INVX2)                                         0.84       3.88 f
+  U3757/Y (OAI21X1)                                       0.63       4.51 r
+  U3758/Y (XOR2X1)                                        0.39       4.90 f
+  U5035/YC (FAX1)                                         0.46       5.37 f
+  U5029/YC (FAX1)                                         0.45       5.82 f
+  U3996/YC (FAX1)                                         0.45       6.28 f
+  U3991/YC (FAX1)                                         0.45       6.73 f
+  U5024/YC (FAX1)                                         0.45       7.18 f
+  U4358/YC (FAX1)                                         0.45       7.64 f
+  U4363/YC (FAX1)                                         0.45       8.09 f
+  U4368/YC (FAX1)                                         0.45       8.55 f
+  U3798/YC (FAX1)                                         0.45       9.00 f
+  U3803/YC (FAX1)                                         0.45       9.45 f
+  U5019/YC (FAX1)                                         0.45       9.91 f
+  U3788/YC (FAX1)                                         0.45      10.36 f
+  U3793/YC (FAX1)                                         0.45      10.82 f
+  U3778/YC (FAX1)                                         0.45      11.27 f
+  U3783/YC (FAX1)                                         0.46      11.73 f
+  U4510/YC (FAX1)                                         0.45      12.18 f
+  U5014/YC (FAX1)                                         0.46      12.64 f
+  U5009/YC (FAX1)                                         0.45      13.09 f
+  U4528/YC (FAX1)                                         0.46      13.55 f
+  U5004/YC (FAX1)                                         0.46      14.00 f
+  U4540/YC (FAX1)                                         0.46      14.46 f
+  U4552/YC (FAX1)                                         0.46      14.91 f
+  U4570/YC (FAX1)                                         0.46      15.37 f
+  U4999/YC (FAX1)                                         0.46      15.82 f
+  U4603/YC (FAX1)                                         0.45      16.28 f
+  U4994/YC (FAX1)                                         0.45      16.73 f
+  U4989/YC (FAX1)                                         0.45      17.18 f
+  U4984/YC (FAX1)                                         0.45      17.64 f
+  U4979/YC (FAX1)                                         0.46      18.09 f
+  U4966/YC (FAX1)                                         0.39      18.49 f
+  U4974/Y (XNOR2X1)                                       0.20      18.69 f
+  U4978/Y (OAI21X1)                                       0.12      18.80 r
+  inst_EX2MEM_reg_alu_result_reg_31_/D (DFFPOSX1)         0.00      18.80 r
+  data arrival time                                                 18.80
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.30      20.30
+  inst_EX2MEM_reg_alu_result_reg_31_/CLK (DFFPOSX1)       0.00      20.30 r
+  library setup time                                     -0.36      19.94
+  data required time                                                19.94
+  --------------------------------------------------------------------------
+  data required time                                                19.94
+  data arrival time                                                -18.80
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.13
+
+
+  Startpoint: inst_ID2EX_reg_op_type_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_alu_result_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_op_type_reg_3_/CLK (DFFPOSX1)            0.00       0.30 r
+  inst_ID2EX_reg_op_type_reg_3_/Q (DFFPOSX1)              0.36       0.66 f
+  U3533/Y (INVX1)                                         0.20       0.85 r
+  U3534/Y (NAND2X1)                                       0.12       0.97 f
+  U3535/Y (INVX1)                                         0.10       1.07 r
+  U3536/Y (NAND2X1)                                       0.38       1.45 f
+  U3592/Y (BUFX2)                                         0.62       2.06 f
+  U3624/Y (NAND2X1)                                       0.31       2.37 r
+  U3629/Y (NOR2X1)                                        0.83       3.20 f
+  U3268/Y (INVX2)                                         0.89       4.10 r
+  U3757/Y (OAI21X1)                                       0.38       4.48 f
+  U3758/Y (XOR2X1)                                        0.38       4.86 f
+  U5035/YC (FAX1)                                         0.46       5.32 f
+  U5029/YC (FAX1)                                         0.45       5.77 f
+  U3996/YC (FAX1)                                         0.45       6.23 f
+  U3991/YC (FAX1)                                         0.45       6.68 f
+  U5024/YC (FAX1)                                         0.45       7.14 f
+  U4358/YC (FAX1)                                         0.45       7.59 f
+  U4363/YC (FAX1)                                         0.45       8.04 f
+  U4368/YC (FAX1)                                         0.45       8.50 f
+  U3798/YC (FAX1)                                         0.45       8.95 f
+  U3803/YC (FAX1)                                         0.45       9.41 f
+  U5019/YC (FAX1)                                         0.45       9.86 f
+  U3788/YC (FAX1)                                         0.45      10.32 f
+  U3793/YC (FAX1)                                         0.45      10.77 f
+  U3778/YC (FAX1)                                         0.45      11.22 f
+  U3783/YC (FAX1)                                         0.46      11.68 f
+  U4510/YC (FAX1)                                         0.45      12.13 f
+  U5014/YC (FAX1)                                         0.46      12.59 f
+  U5009/YC (FAX1)                                         0.45      13.04 f
+  U4528/YC (FAX1)                                         0.46      13.50 f
+  U5004/YC (FAX1)                                         0.46      13.95 f
+  U4540/YC (FAX1)                                         0.46      14.41 f
+  U4552/YC (FAX1)                                         0.46      14.86 f
+  U4570/YC (FAX1)                                         0.46      15.32 f
+  U4999/YC (FAX1)                                         0.46      15.77 f
+  U4603/YC (FAX1)                                         0.45      16.23 f
+  U4994/YC (FAX1)                                         0.45      16.68 f
+  U4989/YC (FAX1)                                         0.45      17.14 f
+  U4984/YC (FAX1)                                         0.45      17.59 f
+  U4979/YC (FAX1)                                         0.46      18.05 f
+  U4966/YC (FAX1)                                         0.39      18.44 f
+  U4974/Y (XNOR2X1)                                       0.20      18.64 f
+  U4978/Y (OAI21X1)                                       0.12      18.76 r
+  inst_EX2MEM_reg_alu_result_reg_31_/D (DFFPOSX1)         0.00      18.76 r
+  data arrival time                                                 18.76
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.30      20.30
+  inst_EX2MEM_reg_alu_result_reg_31_/CLK (DFFPOSX1)       0.00      20.30 r
+  library setup time                                     -0.36      19.94
+  data required time                                                19.94
+  --------------------------------------------------------------------------
+  data required time                                                19.94
+  data arrival time                                                -18.76
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.18
+
+
+  Startpoint: u_MEM2WB_reg_write_reg_address_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_alu_result_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  u_MEM2WB_reg_write_reg_address_reg_1_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  u_MEM2WB_reg_write_reg_address_reg_1_/Q (DFFPOSX1)      0.39       0.69 r
+  U3574/Y (INVX1)                                         0.54       1.23 f
+  U3617/Y (OAI21X1)                                       0.25       1.49 r
+  U3618/Y (NOR2X1)                                        0.14       1.63 f
+  U3619/Y (OAI21X1)                                       0.13       1.76 r
+  U3620/Y (NOR2X1)                                        0.14       1.90 f
+  U3621/Y (OAI21X1)                                       0.14       2.03 r
+  U3622/Y (AOI21X1)                                       0.20       2.23 f
+  U3628/Y (INVX1)                                         0.13       2.36 r
+  U3629/Y (NOR2X1)                                        0.83       3.19 f
+  U3268/Y (INVX2)                                         0.89       4.08 r
+  U3757/Y (OAI21X1)                                       0.38       4.46 f
+  U3758/Y (XOR2X1)                                        0.38       4.84 f
+  U5035/YC (FAX1)                                         0.46       5.31 f
+  U5029/YC (FAX1)                                         0.45       5.76 f
+  U3996/YC (FAX1)                                         0.45       6.21 f
+  U3991/YC (FAX1)                                         0.45       6.67 f
+  U5024/YC (FAX1)                                         0.45       7.12 f
+  U4358/YC (FAX1)                                         0.45       7.58 f
+  U4363/YC (FAX1)                                         0.45       8.03 f
+  U4368/YC (FAX1)                                         0.45       8.48 f
+  U3798/YC (FAX1)                                         0.45       8.94 f
+  U3803/YC (FAX1)                                         0.45       9.39 f
+  U5019/YC (FAX1)                                         0.45       9.85 f
+  U3788/YC (FAX1)                                         0.45      10.30 f
+  U3793/YC (FAX1)                                         0.45      10.76 f
+  U3778/YC (FAX1)                                         0.45      11.21 f
+  U3783/YC (FAX1)                                         0.46      11.66 f
+  U4510/YC (FAX1)                                         0.45      12.12 f
+  U5014/YC (FAX1)                                         0.46      12.57 f
+  U5009/YC (FAX1)                                         0.45      13.03 f
+  U4528/YC (FAX1)                                         0.46      13.48 f
+  U5004/YC (FAX1)                                         0.46      13.94 f
+  U4540/YC (FAX1)                                         0.46      14.39 f
+  U4552/YC (FAX1)                                         0.46      14.85 f
+  U4570/YC (FAX1)                                         0.46      15.31 f
+  U4999/YC (FAX1)                                         0.46      15.76 f
+  U4603/YC (FAX1)                                         0.45      16.21 f
+  U4994/YC (FAX1)                                         0.45      16.67 f
+  U4989/YC (FAX1)                                         0.45      17.12 f
+  U4984/YC (FAX1)                                         0.45      17.58 f
+  U4979/YC (FAX1)                                         0.46      18.03 f
+  U4966/YC (FAX1)                                         0.39      18.43 f
+  U4974/Y (XNOR2X1)                                       0.20      18.63 f
+  U4978/Y (OAI21X1)                                       0.12      18.74 r
+  inst_EX2MEM_reg_alu_result_reg_31_/D (DFFPOSX1)         0.00      18.74 r
+  data arrival time                                                 18.74
+
+  clock clk (rise edge)                                  20.00      20.00
+  clock network delay (ideal)                             0.30      20.30
+  inst_EX2MEM_reg_alu_result_reg_31_/CLK (DFFPOSX1)       0.00      20.30 r
+  library setup time                                     -0.36      19.94
+  data required time                                                19.94
+  --------------------------------------------------------------------------
+  data required time                                                19.94
+  data arrival time                                                -18.74
+  --------------------------------------------------------------------------
+  slack (MET)                                                        1.19
+
+
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay min
+        -nworst 5
+        -max_paths 5
+        -sort_by group
+Design : MIPS32_CPU_top
+Version: O-2018.06-SP1
+Date   : Tue Nov 28 01:03:53 2023
+****************************************
+
+Operating Conditions: typical   Library: osu05_stdcells
+Wire Load Model Mode: top
+
+  Startpoint: inst_ID2EX_reg_address_reg_31_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_shifted_address_reg_31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_address_reg_31_/CLK (DFFPOSX1)           0.00       0.30 r
+  inst_ID2EX_reg_address_reg_31_/Q (DFFPOSX1)             0.24       0.54 r
+  U5304/Y (AOI21X1)                                       0.10       0.64 f
+  inst_EX2MEM_reg_shifted_address_reg_31_/D (DFFPOSX1)
+                                                          0.00       0.64 f
+  data arrival time                                                  0.64
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_EX2MEM_reg_shifted_address_reg_31_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  library hold time                                      -0.07       0.23
+  data required time                                                 0.23
+  --------------------------------------------------------------------------
+  data required time                                                 0.23
+  data arrival time                                                 -0.64
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.41
+
+
+  Startpoint: inst_ID2EX_reg_address_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_shifted_address_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_address_reg_0_/CLK (DFFPOSX1)            0.00       0.30 r
+  inst_ID2EX_reg_address_reg_0_/Q (DFFPOSX1)              0.20       0.50 r
+  U4383/Y (AND2X2)                                        0.13       0.63 r
+  inst_EX2MEM_reg_shifted_address_reg_0_/D (DFFPOSX1)     0.00       0.63 r
+  data arrival time                                                  0.63
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_EX2MEM_reg_shifted_address_reg_0_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  library hold time                                      -0.09       0.21
+  data required time                                                 0.21
+  --------------------------------------------------------------------------
+  data required time                                                 0.21
+  data arrival time                                                 -0.63
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.42
+
+
+  Startpoint: inst_ID2EX_reg_address_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_shifted_address_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_address_reg_1_/CLK (DFFPOSX1)            0.00       0.30 r
+  inst_ID2EX_reg_address_reg_1_/Q (DFFPOSX1)              0.20       0.50 r
+  U4384/Y (AND2X2)                                        0.13       0.63 r
+  inst_EX2MEM_reg_shifted_address_reg_1_/D (DFFPOSX1)     0.00       0.63 r
+  data arrival time                                                  0.63
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_EX2MEM_reg_shifted_address_reg_1_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  library hold time                                      -0.09       0.21
+  data required time                                                 0.21
+  --------------------------------------------------------------------------
+  data required time                                                 0.21
+  data arrival time                                                 -0.63
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.42
+
+
+  Startpoint: inst_IF2ID_reg_instruction_reg_1_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_ID2EX_reg_op_type_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_IF2ID_reg_instruction_reg_1_/CLK (DFFPOSX1)        0.00       0.30 r
+  inst_IF2ID_reg_instruction_reg_1_/Q (DFFPOSX1)          0.26       0.56 r
+  U5219/Y (OAI21X1)                                       0.10       0.66 f
+  inst_ID2EX_reg_op_type_reg_0_/D (DFFPOSX1)              0.00       0.66 f
+  data arrival time                                                  0.66
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_op_type_reg_0_/CLK (DFFPOSX1)            0.00       0.30 r
+  library hold time                                      -0.07       0.23
+  data required time                                                 0.23
+  --------------------------------------------------------------------------
+  data required time                                                 0.23
+  data arrival time                                                 -0.66
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.42
+
+
+  Startpoint: inst_ID2EX_reg_address_reg_8_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: inst_EX2MEM_reg_shifted_address_reg_8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: min
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_ID2EX_reg_address_reg_8_/CLK (DFFPOSX1)            0.00       0.30 r
+  inst_ID2EX_reg_address_reg_8_/Q (DFFPOSX1)              0.26       0.56 r
+  U5252/Y (AOI21X1)                                       0.10       0.66 f
+  inst_EX2MEM_reg_shifted_address_reg_8_/D (DFFPOSX1)     0.00       0.66 f
+  data arrival time                                                  0.66
+
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             0.30       0.30
+  inst_EX2MEM_reg_shifted_address_reg_8_/CLK (DFFPOSX1)
+                                                          0.00       0.30 r
+  library hold time                                      -0.07       0.23
+  data required time                                                 0.23
+  --------------------------------------------------------------------------
+  data required time                                                 0.23
+  data arrival time                                                 -0.66
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.43
+
+
+1

@@ -1,0 +1,154 @@
+@(#)$CDS: LVS version 6.1.7-64b 08/21/2018 19:40 (sjfhw315) $
+
+Command line: /apps/vlsi_2018/cadence/IC617/tools.lnx86/dfII/bin/64bit/LVS -dir /home/ead/yihui/cadence/LVS -l -s -t /home/ead/yihui/cadence/LVS/layout /home/ead/yihui/cadence/LVS/schematic
+Like matching is enabled.
+Net swapping is enabled.
+Using terminal names as correspondence points.
+Compiling Diva LVS rules...
+
+    Net-list summary for /home/ead/yihui/cadence/LVS/layout/netlist
+       count
+        29475           nets
+        69              terminals
+        27569           pmos
+        27557           nmos
+
+    Net-list summary for /home/ead/yihui/cadence/LVS/schematic/netlist
+       count
+        29475           nets
+        71              terminals
+        26474           pmos
+        26474           nmos
+
+
+    Terminal correspondence points
+    N29440    N40       clk
+    N29433    N35       inst_address<0>
+    N29431    N4305     inst_address<10>
+    N29421    N4304     inst_address<11>
+    N29414    N4303     inst_address<12>
+    N29408    N4302     inst_address<13>
+    N29471    N4301     inst_address<14>
+    N29461    N4300     inst_address<15>
+    N29452    N4299     inst_address<16>
+    N29444    N4298     inst_address<17>
+    N29437    N4297     inst_address<18>
+    N29428    N4296     inst_address<19>
+    N29424    N4314     inst_address<1>
+    N29468    N4295     inst_address<20>
+    N29458    N4294     inst_address<21>
+    N29450    N4293     inst_address<22>
+    N29443    N4292     inst_address<23>
+    N29436    N4291     inst_address<24>
+    N29427    N4290     inst_address<25>
+    N29419    N4289     inst_address<26>
+    N29413    N4251     inst_address<27>
+    N29407    N4287     inst_address<28>
+    N29467    N4286     inst_address<29>
+    N29416    N4313     inst_address<2>
+    N29432    N4285     inst_address<30>
+    N29423    N4284     inst_address<31>
+    N29410    N4312     inst_address<3>
+    N29473    N4311     inst_address<4>
+    N29463    N4310     inst_address<5>
+    N29454    N4309     inst_address<6>
+    N29446    N4308     inst_address<7>
+    N29439    N4307     inst_address<8>
+    N29430    N4306     inst_address<9>
+    N29448    N34       instruction<0>
+    N29457    N24       instruction<10>
+    N29449    N23       instruction<11>
+    N29442    N22       instruction<12>
+    N29435    N21       instruction<13>
+    N29426    N20       instruction<14>
+    N29418    N19       instruction<15>
+    N29412    N18       instruction<16>
+    N29406    N17       instruction<17>
+    N29465    N16       instruction<18>
+    N29456    N15       instruction<19>
+    N29441    N33       instruction<1>
+    N29422    N14       instruction<20>
+    N29415    N13       instruction<21>
+    N29409    N12       instruction<22>
+    N29472    N11       instruction<23>
+    N29462    N10       instruction<24>
+    N29453    N9        instruction<25>
+    N29445    N8        instruction<26>
+    N29438    N7        instruction<27>
+    N29429    N6        instruction<28>
+    N29420    N5        instruction<29>
+    N29434    N32       instruction<2>
+    N29459    N4        instruction<30>
+    N29451    N3        instruction<31>
+    N29425    N31       instruction<3>
+    N29417    N30       instruction<4>
+    N29411    N29       instruction<5>
+    N29474    N28       instruction<6>
+    N29464    N27       instruction<7>
+    N29455    N26       instruction<8>
+    N29447    N25       instruction<9>
+    N29470    N2        rst_n
+    N29469    N4253     test_se
+    N29466    N4250     test_si
+    N29460    N4252     test_so
+
+Devices in the rules but not in the netlist:
+        cap nfet pfet nmos4 pmos4
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  55126   52948  
+        total                   55126   52948  
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  29475   29475  
+        total                   29475   29475  
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   69      71     
+
+
+Probe files from /home/ead/yihui/cadence/LVS/schematic
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:
+
+
+Probe files from /home/ead/yihui/cadence/LVS/layout
+
+devbad.out:
+
+netbad.out:
+
+mergenet.out:
+
+termbad.out:
+
+prunenet.out:
+
+prunedev.out:
+
+audit.out:

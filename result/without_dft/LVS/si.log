@@ -1,0 +1,107 @@
+2023/11/23 20:38:18 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/23 20:38:18 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.05s.
+*INFO* (icLic-302) License Virtuoso_Layout_Suite_GXL ("Layout GXL") was used to run Layout L.
+
+Running simulation in directory: "/home/ead/yihui/cadence/LVS".
+
+
+
+Begin netlist:    Nov 23 20:38:22 2023
+	view name list	= ("auLvs" "extracted" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "MIPS32_CPU"
+	cell name	= "MIPS32_CPU_chip"
+	view name	= "extracted"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+*WARNING* Parameter 'lxUseCell' already exists.
+*Error* 2023/11/23 20:38:31 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+
+*Error* 2023/11/23 20:38:31 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+
+*Error*  in modelPath: 
+ -Y/home/ead/yihui/cadence/LVS/layout
+
+
+End netlist:    Nov 23 20:38:32 2023
+2023/11/23 20:38:32 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/23 20:38:32 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 0
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	22721 nodes merged into 22721 nodes
+
+
+Begin netlist:    Nov 23 20:38:32 2023
+	view name list	= ("auLvs" "schematic")
+	stop name list	= ("auLvs")
+	library name	= "MIPS32_CPU"
+	cell name	= "MIPS32_CPU_chip"
+	view name	= "schematic"
+	globals lib	= "basic"
+Running Artist Flat Netlisting ...
+*INFO* (icLic-302) License Virtuoso_Layout_Suite_GXL ("Layout GXL") was used to run Layout L.
+*WARNING* Parameter 'lxUseCell' already exists.
+*Error* 2023/11/23 20:39:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+
+*Error* 2023/11/23 20:39:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+
+*Error*  in modelPath: 
+ -Y/home/ead/yihui/cadence/LVS/schematic
+
+
+End netlist:    Nov 23 20:39:01 2023
+2023/11/23 20:39:01 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/23 20:39:01 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+
+Moving original netlist to extNetlist
+Removing parasitic components from netlist
+	presistors removed:  0
+	pcapacitors removed: 0
+	pinductors removed:  0
+	pdiodes removed:     0
+	trans lines removed: 0
+	38472 nodes merged into 38472 nodes
+
+Running netlist comparison program:  LVS
+Begin comparison:    Nov 23 20:39:02 2023
+2023/11/23 20:39:02 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2023/11/23 20:39:02 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+@(#)$CDS: LVS version 6.1.7-64b 08/21/2018 19:40 (sjfhw315) $
+
+1 net-list ambiguity was resolved by random selection.
+
+The net-lists match.
+
+                             layout  schematic
+                                instances
+        un-matched              0       0      
+        rewired                 0       0      
+        size errors             0       0      
+        pruned                  0       0      
+        active                  45160   41362  
+        total                   45160   41362  
+
+                                  nets
+        un-matched              0       0      
+        merged                  0       0      
+        pruned                  0       0      
+        active                  22559   22559  
+        total                   22559   22559  
+
+                                terminals
+        un-matched              0       0      
+        matched but
+        different type          0       0      
+        total                   0       69     
+End comparison:      Nov 23 20:39:13 2023
+*INFO* (icLic-302) License Virtuoso_Layout_Suite_GXL ("Layout GXL") was used to run Layout L.
+
+
+Comparison program completed successfully.
